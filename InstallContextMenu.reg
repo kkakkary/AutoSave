@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Adds "Move to Client Folder" to the right-click context menu for all files
+; IMPORTANT: Update the path below to where you saved MoveToClientFolder.ahk
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\MoveToClientFolder]
+@="Move to Client Folder"
+"Icon"="shell32.dll,145"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\MoveToClientFolder\command]
+@="\"C:\\Program Files\\AutoHotkey\\v2\\AutoHotkey64.exe\" \"C:\\Scripts\\MoveToClientFolder.ahk\" \"%1\""
