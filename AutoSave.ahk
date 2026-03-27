@@ -7,7 +7,7 @@
 ; Usage:
 ;   1. Click "Save as PDF" in BestCase
 ;   2. Type the filename: "LastName, FirstName - Description.pdf"
-;   3. Press Ctrl+Shift+G
+;   3. Press Ctrl+Shift+S
 ;   4. Script navigates to the correct client folder on ReadyNAS
 ;   5. Click Save
 ; ============================================================
